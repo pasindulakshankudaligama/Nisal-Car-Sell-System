@@ -17,13 +17,13 @@ export default function App() {
         <Stack.Navigator screenOptions={{
           headerShown: false,
         }}>
-      <Stack.Screen name="Login" component={Login} />
-    	<Stack.Screen name="Register" component={Register} />
-	    <Stack.Screen name="Home" component={Home} />
- <Stack.Screen name="AddNewVehicleInfo" component={AddNewVehicleInfo} />
- <Stack.Screen name="VehicleInfo" component={VehicleInfo} />
-   <Stack.Screen name="Update" component={Update} />
-
+        <Stack.Screen name="Login" component={Login} />
+        <Stack.Screen name="Register" component={Register} />
+        <Stack.Screen name="Home" component={Home} />
+        <Stack.Screen name="AddNewVehicleInfo" component={AddNewVehicleInfo} />
+        <Stack.Screen name="VehicleInfo" component={VehicleInfo} />
+        <Stack.Screen name="Update" component={Update} />
+      
     </Stack.Navigator>
     </NavigationContainer>
   
